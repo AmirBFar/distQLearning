@@ -7,7 +7,5 @@
 #SBATCH --error=error.err
 #SBATCH --export=ALL
 
-#srun --mpi=pmi2  python3 mpi_run.py
-#srun --mpi=pmi2  python3 cp_mpi_plot.py
 #srun --mpi=pmi2  python3 age_mpi_run.py 
 srun --mpi=pmi2  python3 age_mpi_plot.py
